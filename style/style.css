@@ -1,0 +1,189 @@
+body{
+    font-family: 'rubic';
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.nav{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+.header__list{
+    display: flex;
+}
+.header__link{
+    padding: 30px 15px;
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+    display: block;
+    font-size: 16px;
+    line-height: 19px;
+    color: black;
+}
+.header__link:hover{
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+}
+.header__input{
+    background: #fff;
+    border: 1px solid #000;
+    border-radius: 10px 0 0 10px;
+    padding: 8px 12px;
+}
+.header__input::placeholder{
+    color: #000;
+}
+.form{
+    display: flex;
+}
+.header__btn{
+    padding: 8px 16px;
+    background: #000;
+    color: #fff;
+    border-radius: 0px 10px 10px 0px;
+    cursor: pointer;
+}
+/* header-content */
+.header__content{
+    max-width: 1440px;
+    height: 780px;
+    background: url(../images/bac.jpg) no-repeat center/cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.header__title{
+    font-weight: 600;
+    font-size: 59px;
+    line-height: 70px;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+.header__title>span{
+    display: block;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 31px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-family: 'Rubik';
+}
+/* header-products */
+.products{
+    max-width: 1440px;
+    width: 100%;
+    display: flex;
+    background: #181D28;
+    margin: 0 auto;
+}
+.products__link{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #fff;
+    transition: 0.3s;
+}
+.products__link:hover{
+    background: #684684;
+    
+}
+.products__item{
+    width: 25%;
+}
+.products__img{
+    margin-bottom: 24px;
+}
+/* main section-adidas */
+.adidas__title{
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.adidas__text{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+    width: 1110px;
+    height: 90px;
+    margin: 0 auto 18px auto;
+}
+.adidas__img{
+    display: block;
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+/* section-bottom */
+.bottom__title{
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+    text-align: center;
+}
+.bottom__list{
+    max-width: 1140px;
+    width: 100%;
+    display: flex;
+    margin: 30px auto;
+    column-gap: 142px;
+}
+.bottom__item{
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+
+}
+.bottom__item>span{
+    margin-top: 14px;
+}
+/* footer */
+.footer{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 15px;
+    background: #181D28;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__logo{
+    margin: 35px;
+}
+.footer__list{
+    display: flex;
+    column-gap: 30px;
+}
+.footer__item{
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    column-gap: 30px;
+}
